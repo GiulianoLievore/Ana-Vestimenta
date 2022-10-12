@@ -13,7 +13,7 @@ html {
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-    border: solid 2px #111111;
+    border: solid 1px #111111;
 }
 
 .header img{
@@ -35,7 +35,7 @@ html {
 
 .navbar {
     background-color: #fafafa00;
-    border: solid 3px #000000;
+    border: solid 1px #000000;
 }
 
 .collapse {
@@ -134,8 +134,8 @@ html {
     }
 #productos section .estilo-a .img-container {
     overflow: hidden;
-    background-color: #000000da;
-    border: solid 2px #1e8ef7a9;
+    background-color: #000000e0;
+    border: solid 4px #f37e7eec;
     }
 #productos section .estilo-a .img-container img {
     width: 100%;
