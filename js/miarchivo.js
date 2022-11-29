@@ -4,14 +4,13 @@ const localUsuario = localStorage.getItem("Usuario");
 const submit = document.querySelector("#submit");
 const usuario = document.querySelector("#usuario");
 
+// interaccion con el usuario donde se le pide ingresar su nombre y posteriormente guardarlo
 localUsuario === null ? 
 Swal.fire(
     'Recuerda poner tu nombre de usuario',
     '',
     'info'
 )
-
-// interaccion con el usuario donde se le pide ingresar su nombre y posteriormente guardarlo
 : 
 nomUsuario.innerText = "Bienvenido " + localUsuario + " a la página oficial de ventas de Ana vestimenta";
 nomUsuario.classList = "text-center";
