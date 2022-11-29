@@ -1,10 +1,10 @@
-// Reconocimiento de usuario
+// Acceso a los campos de usuario
 const nomUsuario = document.querySelector("#nombreUsuario");
 const localUsuario = localStorage.getItem("Usuario");
 const submit = document.querySelector("#submit");
 const usuario = document.querySelector("#usuario");
 
-// interaccion con el usuario donde se le pide ingresar su nombre y posteriormente guardarlo
+// Interaccion con el usuario donde se le pide ingresar su nombre y posteriormente guardarlo
 localUsuario === null ? 
 Swal.fire(
     'Recuerda poner tu nombre de usuario',
@@ -38,7 +38,6 @@ submit.addEventListener("click", () =>{
 
     localStorage.setItem("Usuario", value);
 })
-
 
 // Productos hechos en objetos
 let productos = [{
